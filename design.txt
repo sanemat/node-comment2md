@@ -1,0 +1,42 @@
+commands:
+comment2md
+comment2ndjson
+ndjson2md
+
+packages:
+@sanemat/comment2md-cli glob,
+@sanemat/comment2md-lib
+@sanemat/comment2ndjson-cli glob,
+@sanemat/comment2ndjson-lib comment-parser
+@sanemat/ndjson2md-cli glob,
+@sanemat/ndjson2md-lib json2md
+
+
+```test/foo.ts
+console.log(foo)
+/** @e2e message1 */
+/** @example message2 */
+/** @e2e message2 */
+```
+
+```test/bar.js
+/** @e2e message1 */
+```
+
+my-cmd --tag e2e "test/**/*.{ts,js}"
+
+```ndjson
+{"test/foo.ts": [{"e2e": "message1"}, {"e2e": "message2"}]}
+{"test/bar.js": [{"e2e": "message1"}]}
+```
+
+my-cmd --tag e2e "test/**/*.{ts,js}" | ndjson2md
+- test/foo.ts
+  - message1
+  - message2
+- test/bar.js
+  - message1
+
+refs:
+https://github.com/IonicaBizau/json2md
+@security-alert/sarif-to-comment
