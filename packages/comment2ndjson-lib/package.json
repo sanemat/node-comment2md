@@ -2,20 +2,17 @@
   "name": "@sanemat/comment2ndjson-lib",
   "description": "> TODO: description",
   "version": "0.1.0",
-  "author": "Matt <o.gata.ken@gmail.com> (Sanemat)",
+  "author": "Matt <ogataken@gmail.com> (Sanemat) (Murahashi Kenichi)",
   "bugs": {
     "url": "https://github.com/sanemat/node-comment2md/issues"
   },
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
   "files": [
-    "lib"
+    "dist"
   ],
   "homepage": "https://github.com/sanemat/node-comment2md/tree/main/packages/comment2ndjson-lib#readme",
   "license": "ISC",
-  "main": "lib/comment2ndjson-lib.js",
+  "main": "dist/commonjs/index.js",
+  "module": "dist/es/index.js",
   "publishConfig": {
     "access": "public"
   },
