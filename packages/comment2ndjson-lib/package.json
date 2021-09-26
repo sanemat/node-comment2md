@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/sanemat/node-comment2md.git"
   },
-  "author": "Matt",
+  "author": "Matt (Sanemat) (Murahashi Kenichi)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sanemat/node-comment2md/issues"
