@@ -16,4 +16,19 @@ export default [
       }),
     ],
   }),
+  defineConfig({
+    input: "src/comment2ndjson-lib.ts",
+    output: {
+      dir: "dist/commonjs",
+      sourcemap: true,
+      format: "commonjs",
+    },
+    plugins: [
+      typescript({
+        declaration: true,
+        declarationDir: "dist/commonjs",
+        target: "es5",
+      }),
+    ],
+  }),
 ];
