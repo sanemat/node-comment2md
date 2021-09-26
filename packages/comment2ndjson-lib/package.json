@@ -1,19 +1,19 @@
 {
   "name": "@sanemat/comment2ndjson-lib",
-  "version": "0.1.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "exit 1"
+  "version": "0.1.0",
+  "author": "Matt (Sanemat) (Murahashi Kenichi)",
+  "bugs": {
+    "url": "https://github.com/sanemat/node-comment2md/issues"
   },
+  "homepage": "https://github.com/sanemat/node-comment2md#readme",
+  "license": "ISC",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sanemat/node-comment2md.git"
   },
-  "author": "Matt (Sanemat) (Murahashi Kenichi)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sanemat/node-comment2md/issues"
-  },
-  "homepage": "https://github.com/sanemat/node-comment2md#readme"
+  "scripts": {
+    "test": "exit 1"
+  }
 }
