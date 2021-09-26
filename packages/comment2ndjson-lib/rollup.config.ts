@@ -11,8 +11,7 @@ export default [
     },
     plugins: [
       typescript({
-        declaration: true,
-        declarationDir: "dist/es6",
+        tsconfig: "tsconfig.es6.json",
       }),
     ],
   }),
@@ -25,9 +24,7 @@ export default [
     },
     plugins: [
       typescript({
-        declaration: true,
-        declarationDir: "dist/commonjs",
-        target: "es5",
+        tsconfig: "tsconfig.commonjs.json",
       }),
     ],
   }),
