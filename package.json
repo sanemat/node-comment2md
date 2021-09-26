@@ -2,7 +2,7 @@
   "name": "@sanemat/comment2md",
   "description": "",
   "version": "0.1.0",
-  "author": "Matt (Sanemat) (Murahashi Kenichi)",
+  "author": "Matt <ogataken@gmail.com> (Sanemat) (Murahashi Kenichi)",
   "bugs": {
     "url": "https://github.com/sanemat/node-comment2md/issues"
   },
