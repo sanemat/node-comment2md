@@ -1,8 +1,8 @@
 import { defineConfig } from "rollup";
 import typescript from "@rollup/plugin-typescript";
 
-export default defineConfig([
-  {
+export default [
+  defineConfig({
     input: "src/comment2ndjson-lib.ts",
     output: {
       dir: "dist/es6",
@@ -15,5 +15,5 @@ export default defineConfig([
         declarationDir: "dist/es6",
       }),
     ],
-  },
-]);
+  }),
+];
