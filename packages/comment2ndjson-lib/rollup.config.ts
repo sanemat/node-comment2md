@@ -9,6 +9,9 @@ export default defineConfig([
       sourcemap: true,
       format: "es",
     },
-    plugins: [typescript()]
+    plugins: [typescript({
+      declaration: true,
+      declarationDir: "dist/es6",
+    })]
   }
 ]);
