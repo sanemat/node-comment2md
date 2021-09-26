@@ -26,6 +26,7 @@
     "url": "git+ssh://git@github.com/sanemat/node-comment2md.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "rollup --config rollup.config.ts --configPlugin typescript"
   }
 }
