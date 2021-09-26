@@ -1,2 +1,2 @@
-function comment2ndjsonLib() {}
+function comment2ndjsonLib (): void {}
 export { comment2ndjsonLib };
