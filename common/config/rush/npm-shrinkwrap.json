@@ -6,21 +6,7 @@
   "packages": {
     "": {
       "name": "rush-common",
-      "version": "0.0.0",
-      "dependencies": {
-        "@rush-temp/comment2ndjson-lib": "file:./projects/comment2ndjson-lib.tgz"
-      }
-    },
-    "node_modules/@rush-temp/comment2ndjson-lib": {
-      "version": "0.0.0",
-      "resolved": "file:projects/comment2ndjson-lib.tgz",
-      "integrity": "sha512-WAScsHj5Q3K8wjtd7aYgBGn+0Csa3VvLoelEipcfFVz+tBKr23qIe5exJ9Lr9Al7izgtabK0m4bZf39z21WhRQ=="
-    }
-  },
-  "dependencies": {
-    "@rush-temp/comment2ndjson-lib": {
-      "version": "file:projects/comment2ndjson-lib.tgz",
-      "integrity": "sha512-WAScsHj5Q3K8wjtd7aYgBGn+0Csa3VvLoelEipcfFVz+tBKr23qIe5exJ9Lr9Al7izgtabK0m4bZf39z21WhRQ=="
+      "version": "0.0.0"
     }
   }
 }
