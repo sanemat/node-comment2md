@@ -1,7 +1,4 @@
 'use strict';
 
-const comment2ndjsonLib = require('.');
-
-describe('@sanemat/comment2ndjson-lib', () => {
-    it('needs tests');
-});
+import { comment2ndjsonLib } from './comment2ndjson-lib';
+comment2ndjsonLib()
