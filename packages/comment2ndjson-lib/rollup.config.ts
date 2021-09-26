@@ -1,5 +1,5 @@
-import { defineConfig } from 'rollup';
-import typescript from '@rollup/plugin-typescript';
+import { defineConfig } from "rollup";
+import typescript from "@rollup/plugin-typescript";
 
 export default defineConfig([
   {
@@ -9,9 +9,11 @@ export default defineConfig([
       sourcemap: true,
       format: "es",
     },
-    plugins: [typescript({
-      declaration: true,
-      declarationDir: "dist/es6",
-    })]
-  }
+    plugins: [
+      typescript({
+        declaration: true,
+        declarationDir: "dist/es6",
+      }),
+    ],
+  },
 ]);
