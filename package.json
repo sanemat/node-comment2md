@@ -12,6 +12,7 @@
   "homepage": "https://github.com/sanemat/node-comment2md#readme",
   "license": "ISC",
   "main": "index.js",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/sanemat/node-comment2md.git"
