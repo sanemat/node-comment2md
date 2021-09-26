@@ -1,0 +1,19 @@
+{
+  "name": "@sanemat/comment2md",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sanemat/node-comment2md.git"
+  },
+  "author": "Matt (Sanemat) (Murahashi Kenichi)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanemat/node-comment2md/issues"
+  },
+  "homepage": "https://github.com/sanemat/node-comment2md#readme"
+}
