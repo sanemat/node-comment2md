@@ -19,6 +19,7 @@
   "homepage": "https://github.com/sanemat/node-comment2md/tree/main/packages/comment2ndjson-lib#readme",
   "license": "ISC",
   "main": "dist/commonjs/index.js",
+  "types": "dist/commonjs/comment2ndjson-lib.d.ts",
   "module": "dist/es6/comment2ndjson-lib.js",
   "publishConfig": {
     "access": "public"
