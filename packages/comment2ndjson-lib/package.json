@@ -37,7 +37,10 @@
   "scripts": {
     "build": "rollup --config rollup.config.ts --configPlugin typescript",
     "clean:dist": "del-cli dist",
-    "fmt": "prettier -w src/*.{ts,js} *.{json,ts}",
+    "fmt": "npm run fmt:prettier",
+    "fmt:prettier": "prettier --write \"src/*.{ts,js}\" \"*.{json,ts}\"",
+    "lint": "npm run lint:prettier",
+    "lint:prettier": "prettier --check \"src/*.{ts,js}\" \"*.{json,ts}\"",
     "prebuild": "npm run clean:dist",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
