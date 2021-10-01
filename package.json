@@ -18,6 +18,7 @@
     "url": "git+ssh://git@github.com/sanemat/node-comment2md.git"
   },
   "scripts": {
+    "bootstrap": "lerna bootstrap",
     "build": "lerna run build --stream",
     "lint": "lerna run lint --stream",
     "test": "lerna run test --stream"
