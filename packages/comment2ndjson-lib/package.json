@@ -44,7 +44,7 @@
     "lint:prettier": "prettier --check \"src/*.{ts,js}\" \"*.{json,ts}\"",
     "prebuild": "npm run clean:dist",
     "typecheck": "tsc --noEmit --project tsconfig.es6.json",
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "ts-node src/*.test.ts"
   },
   "types": "dist/commonjs/comment2ndjson-lib.d.ts"
 }
