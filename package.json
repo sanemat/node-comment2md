@@ -28,9 +28,9 @@
     "postversionup:patch": "npm run commit-version",
     "release": "lerna publish from-package",
     "test": "lerna run test --stream",
-    "versionup": "lerna version --conventional-commits --no-git-tag-version",
-    "versionup:major": "lerna version major --conventional-commits --no-git-tag-version",
+    "versionup": "lerna version --conventional-commits",
+    "versionup:major": "lerna version major --conventional-commits",
     "versionup:minor": "lerna version minor --conventional-commits",
-    "versionup:patch": "lerna version patch --conventional-commits --no-git-tag-version"
+    "versionup:patch": "lerna version patch --conventional-commits"
   }
 }
