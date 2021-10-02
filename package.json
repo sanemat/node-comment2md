@@ -20,7 +20,17 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build --stream",
+    "commit-version": "git add . && git commit -m \"chore(release): publish `node -p 'require(\"./lerna.json\").version'`\"",
     "lint": "lerna run lint --stream",
-    "test": "lerna run test --stream"
+    "postversionup": "npm run commit-version",
+    "postversionup:major": "npm run commit-version",
+    "postversionup:minor": "npm run commit-version",
+    "postversionup:patch": "npm run commit-version",
+    "release": "lerna publish from-package",
+    "test": "lerna run test --stream",
+    "versionup": "lerna version --conventional-commits --no-git-tag-version",
+    "versionup:major": "lerna version major --conventional-commits --no-git-tag-version",
+    "versionup:minor": "lerna version minor --conventional-commits --no-git-tag-version",
+    "versionup:patch": "lerna version patch --conventional-commits --no-git-tag-version"
   }
 }
