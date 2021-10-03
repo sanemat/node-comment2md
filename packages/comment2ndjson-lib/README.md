@@ -1,6 +1,6 @@
 # `@sanemat/comment2ndjson-lib`
 
-> TODO: description
+> Filter jsdoc comment to mdjson
 
 ## Usage
 

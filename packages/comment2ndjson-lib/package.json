@@ -1,6 +1,6 @@
 {
   "name": "@sanemat/comment2ndjson-lib",
-  "description": "> TODO: description",
+  "description": "filter jsdoc comment to ndjson",
   "version": "0.3.0",
   "author": "Matt <ogataken@gmail.com> (Sanemat) (Murahashi Kenichi)",
   "bugs": {
