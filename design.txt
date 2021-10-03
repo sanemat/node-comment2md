@@ -34,7 +34,7 @@ my-cmd --tag e2e "test/**/*.{ts,js}"
 
 my-cmd --tag e2e "test/**/*.{ts,js}" | ndjson2md
 - test/foo.ts
-  - message1@sanemat/
+  - message1
   - message2
 - test/bar.js
   - message1
