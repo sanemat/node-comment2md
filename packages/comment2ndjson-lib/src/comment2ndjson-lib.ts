@@ -3,7 +3,7 @@ import { parse } from "comment-parser";
 async function comment2ndjsonLib(
   path: string,
   content: string,
-  filter: string[]
+  filter: string[] = []
 ): Promise<{ path: string; comments: { tag: string; message: string }[] }> {
   const parsed = parse(content);
   console.log(parsed);
