@@ -6,7 +6,16 @@ async function comment2ndjsonLib(
   filter: string[] = []
 ): Promise<{ path: string; comments: { tag: string; message: string }[] }> {
   const parsed = parse(content);
-  console.log(parsed);
+  let comments: { tag: string; message: string }[];
+  for (const lines of parsed) {
+    console.log(lines)
+    lines.tags.map((tag) => {
+      console.log(tag);
+      comments.push({tag: 'a', message: 'b'});
+    });
+  }
+  if (filter.length !== 0) {
+  }
   return {
     path: path,
     comments: [
