@@ -7,4 +7,4 @@ console.log(foo)
 /** @e2e message2 */
 `;
 
-console.log(await comment2ndjsonLib("test/foo.ts", ts, "e2e")); // {"test/foo.ts": [{"e2e": "message1"}, {"e2e": "message2"}]}
+console.log(await comment2ndjsonLib("test/foo.ts", ts, ["e2e"])); // {"test/foo.ts": [{"e2e": "message1"}, {"e2e": "message2"}]}
