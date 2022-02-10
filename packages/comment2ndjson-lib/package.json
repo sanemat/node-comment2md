@@ -6,6 +6,9 @@
   "bugs": {
     "url": "https://github.com/sanemat/node-comment2md/issues"
   },
+  "dependencies": {
+    "comment-parser": "^1.2.4"
+  },
   "devDependencies": {
     "@rollup/plugin-typescript": "^8.2.5",
     "del-cli": "^4.0.1",
