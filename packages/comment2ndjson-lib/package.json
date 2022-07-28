@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^8.2.5",
-    "del-cli": "^4.0.1",
+    "del-cli": "^5.0.0",
     "prettier": "^2.4.1",
     "rollup": "^2.57.0",
     "ts-node": "^10.2.1",
