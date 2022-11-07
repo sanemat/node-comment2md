@@ -7,7 +7,7 @@
     "url": "https://github.com/sanemat/node-comment2md/issues"
   },
   "devDependencies": {
-    "lerna": "^5.1.6"
+    "lerna": "^6.0.3"
   },
   "homepage": "https://github.com/sanemat/node-comment2md#readme",
   "license": "ISC",
